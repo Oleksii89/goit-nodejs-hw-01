@@ -7,14 +7,15 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index",
-    "devtest": "nodemon contacts" 
+    "devtest": "nodemon contacts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nanoid": "^3.3.7"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
